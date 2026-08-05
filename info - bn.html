@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            ডিভাইসটি নিয়ে
+        </title>
+    </head>
+    <body><br><p style="float: right;"><label style="color: white; font-weight: bold; margin-right: 15px; font-size: 25px">নাম সম্পাদনা করুন:</label><input placeholder="অপরিচিত" id="i1" maxlength="20" minlength="1" style="width: 300px; height: 23px; margin-top: 40px"><button style="height: 34px; width: 110px; margin-left: -20px; border: solid 4px" id="button">সংরক্ষণ করুন</button></p>
+         <h1 style="text-align: center; color: white; font-size: 50px">সাধারণ</h1>
+       <hr style="margin: 60px 500px 60px 60px; text-align: center; color: rgb(170, 164, 164)"><br><br><br><br>
+       <div><b><p style="font-size: 40px; color: white; margin-left: 25px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"><a>অ্যান্ড্রয়ড ভার্সন:</a><a style="float: right; margin-right: 100px">৪.৪.২</a></p></b></div><br><br>
+       <div><b><p style="font-size: 40px; color: white; margin-left: 25px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"><a>অ্যান্ড্রয়ড এসডিকে:</a><a style="float: right; margin-right: 100px">১৯</a></p></b></div><br><br>
+      
+       <div><b><p style="font-size: 40px; color: white; margin-left: 25px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"><a>মডেল নাম:</a><a style="float: right; margin-right: 100px">সনি</a></p></b></div><br><br>
+      
+       <div><b><p style="font-size: 40px; color: white; margin-left: 25px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"><a>ডিভাইস নাম:</a><a style="float: right; margin-right: 100px"><span id="a1">অপরিচিত</span><span id="s1">-র</span> অ্যান্ড্রয়ড ৪.৪.২</a></p></b></div><br><br>
+      <style>
+        body{
+                background-image:url('ab.png');
+                background-repeat: no-repeat;
+                background-size: 4000px
+            }
+            div{
+                margin-right: 25px;
+                margin-left:25px;
+                                border: solid 7px lightgrey;
+                box-shadow: 3px 3px 3px blue, -3px -3px 3px blue;
+                border-radius: 60px;
+                height: 100px;
+                width: auto;
+                display: block
+            }
+       </style>
+       <script>
+        
+        let button=document.getElementById("button").onclick= function(){
+            
+            let a1=document.getElementById("a1")
+let i1=document.getElementById("i1").value
+a1.textContent=i1
+        }
+        
+       </script>
+    </body>
+</html>
